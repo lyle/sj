@@ -16,7 +16,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 
 	saveVisitors.click = function saveVisitors_click (event)// @startlock
 	{// @endlock
-		$('#saveVisitor').focus();
+		$('#saveVisitors').focus();
 		waf.sources.visitors.save({
 			onSuccess: function(event){
 				alert('Thanks '+ sources.visitors.firstName);
