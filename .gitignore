@@ -1,0 +1,6 @@
+*.DS_Store
+*.waPreferences
+*/Logs/*
+*/DataFolder/*
+*studio_log*.txt
+*SymbolTable*
